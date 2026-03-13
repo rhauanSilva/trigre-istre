@@ -7,18 +7,23 @@ body{
     display: flex;
     border: 2px solid #2f00ff;
     padding: 10px;
+    flex-wrap: wrap;
     margin-top: 10px;
     height: 150px;
-    gap: 50px;
+    gap: 20px;
 }
 
 .container-istre{
     display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     border: 2px solid #ff0000;
     padding: 10px;
     margin-top: 10px;
     height: 150px;
-    gap: 100px;
+    gap: 10px;
 }
 .box1{
     background: hsl(207, 100%, 50%);
@@ -87,32 +92,14 @@ body{
     font-weight: bold;
 }
 
-
-/* FLEX DIRECTION */
-.direction{
-    flex-direction: ;
+.grow1{
+    flex-grow: 1;
 }
 
-
-/* JUSTIFY CONTENT */
-.justify{
-    justify-content: center; 
-    justify-content: space-evenly;
-}/
-
-
-
-/* ALIGN ITEMS */
-.align{
-    align-items: ;
+.grow2{
+    flex-grow: 2;
 }
 
-
-/* FLEX WRAP */
-.wrap{
-    flex-wrap: wrap;
-}
-
-.large{
-    width: 250px;
+.grow3{
+    flex-grow: 3;
 }
